@@ -9,5 +9,5 @@ print("only this line added")
 
 print(sum)
 
-def subtract(a=4, b=1):
+def subtract(a=4, b=100):#changed default b value
   return a - b
