@@ -1,7 +1,12 @@
-x = 3
-y = 4
+x = 10
+y = 2
 
 def sum(a, b):
   return a + b
 
-print(sum(x, y))
+sum = sum(x, y)
+
+print(sum)
+
+def subtract(a=1, b=1):
+  return a - b
